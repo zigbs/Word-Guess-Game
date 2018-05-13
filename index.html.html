@@ -3,10 +3,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <link rel="shortcut icon" type="image/x-icon" href="https://.ico" />
-  <link rel="mask-icon" type="" href=".svg" color="#111" />
   <title>Tyler's Word Guessing Game</title>
-  <meta name="viewport" content="width=device-width"><link rel="author" href="https://www.tylerdylanbrown.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel='stylesheet prefetch' href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
 
@@ -212,8 +209,6 @@ p {
   <form class="guessForm">
     <input type="text" class="guessLetter" maxlength="1"  placeholder="Enter a letter . . . &#x23ce;"/> <button type="submit" class="guessButton">Guess</button><button type="button" class="guessButton hintButton">Hint?</button>
   </form>  
-  <p>Words are Star Trek related: <br/><a href="https://linkedin.com" alt="Follow me on Linkedin!">Follow Me on Linkedin</a></p>
- 
   <div class="wrong">
     <div class="wrongLetters"></div>
   </div>
@@ -232,13 +227,6 @@ p {
   
 
     <script >
-      /*
-* SPOILER ALERT! 
-* WORDS FOR THE GAME ARE IN THIS FILE ;)
-* ©2014 Nate Wiley -- MIT License
-Sounds from http://soundfxnow.com, and http://www.soundjay.com
-Fonts from Google Fonts
-*/
 (function($, window, undefined){
 
   var totalWins = 0;
